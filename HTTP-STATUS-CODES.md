@@ -42,6 +42,18 @@ These status codes indicate that the client's request was successfully received,
 ### 200 OK
 The request was successful, and the server has returned the requested data.
 
+## Redirection Messages (3xx)
+These status codes indicate that further action needs to be taken by the client to complete the request.
+
+### 301 Moved Permanently
+The requested resource has been permanently moved to a new URL.
+
+### 302 Found
+The requested resource has been temporarily moved to a different URL.
+
+### 304 Not Modified
+The resource has not been modified since the last request. The client can use the cached version.
+
 ### 201 Created
 The request has been fulfilled, resulting in the creation of a new resource.
 
