@@ -36,3 +36,14 @@ The server has received the request headers, and the client should proceed to se
 ### 101 Switching Protocols
 The server acknowledges a request to switch protocols as indicated by the client.
 
+## Successful Responses (2xx)
+These status codes indicate that the client's request was successfully received, understood, and accepted.
+
+### 200 OK
+The request was successful, and the server has returned the requested data.
+
+### 201 Created
+The request has been fulfilled, resulting in the creation of a new resource.
+
+### 204 No Content
+The server successfully processed the request, but there is no content to return.
