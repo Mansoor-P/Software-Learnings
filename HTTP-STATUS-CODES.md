@@ -26,3 +26,13 @@ HTTP status codes are issued by a server in response to a client's request made 
   - [502 Bad Gateway](#502-bad-gateway)
   - [503 Service Unavailable](#503-service-unavailable)
   - [504 Gateway Timeout](#504-gateway-timeout)
+
+## Informational Responses (1xx)
+These status codes indicate a provisional response. The client should be prepared to receive one or more 1xx responses before receiving a regular response.
+
+### 100 Continue
+The server has received the request headers, and the client should proceed to send the request body.
+
+### 101 Switching Protocols
+The server acknowledges a request to switch protocols as indicated by the client.
+
