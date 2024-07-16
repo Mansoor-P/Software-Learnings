@@ -41,6 +41,13 @@ These status codes indicate that the client's request was successfully received,
 
 ### 200 OK
 The request was successful, and the server has returned the requested data.
+### 201 Created
+The request has been fulfilled, resulting in the creation of a new resource.
+The request method is known by the server but has been disabled and cannot be used.
+
+
+### 204 No Content
+The server successfully processed the request, but there is no content to return.
 
 ## Redirection Messages (3xx)
 These status codes indicate that further action needs to be taken by the client to complete the request.
@@ -72,6 +79,23 @@ The server cannot find the requested resource.
 ### 405 Method Not Allowed
 The request method is known by the server but has been disabled and cannot be used.
 
+## Server Error Responses (5xx)
+These status codes indicate that the server failed to fulfill a valid request.
 
-### 204 No Content
-The server successfully processed the request, but there is no content to return.
+### 500 Internal Server Error
+The server encountered an unexpected condition that prevented it from fulfilling the request.
+
+### 501 Not Implemented
+The server does not support the functionality required to fulfill the request.
+
+### 502 Bad Gateway
+The server, while acting as a gateway or proxy, received an invalid response from the upstream server.
+
+### 503 Service Unavailable
+The server is not ready to handle the request, often due to maintenance or overloading.
+
+### 504 Gateway Timeout
+The server, while acting as a gateway or proxy, did not receive a timely response from the upstream server.
+
+
+
