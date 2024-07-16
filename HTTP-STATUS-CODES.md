@@ -54,8 +54,24 @@ The requested resource has been temporarily moved to a different URL.
 ### 304 Not Modified
 The resource has not been modified since the last request. The client can use the cached version.
 
-### 201 Created
-The request has been fulfilled, resulting in the creation of a new resource.
+## Client Error Responses (4xx)
+These status codes indicate that there was an error with the request made by the client.
+
+### 400 Bad Request
+The server could not understand the request due to invalid syntax.
+
+### 401 Unauthorized
+The client must authenticate itself to get the requested response.
+
+### 403 Forbidden
+The client does not have access rights to the content.
+
+### 404 Not Found
+The server cannot find the requested resource.
+
+### 405 Method Not Allowed
+The request method is known by the server but has been disabled and cannot be used.
+
 
 ### 204 No Content
 The server successfully processed the request, but there is no content to return.
