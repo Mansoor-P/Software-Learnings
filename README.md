@@ -19,5 +19,3 @@ Each cheatsheet is organized into sections that cover specific aspects of the to
 ## Contributing
 
 Contributions to expand and improve the cheatsheets are welcome! If you have corrections, additional content, or new topics to add, please fork this repository, make your changes, and submit a pull request.
-
-Happy learning and coding!
